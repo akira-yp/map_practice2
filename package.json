@@ -1,5 +1,8 @@
 {
   "name": "map_sample",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "leaflet": "^1.7.1",
+    "leaflet.markercluster": "^1.5.0"
+  }
 }
