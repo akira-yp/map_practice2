@@ -11,8 +11,8 @@
 // about supported directives.
 //
 //= require rails-ujs
+//= require jquery/dist/jquery.js
 //= require activestorage
-//= require turbolinks
 //= require leaflet/dist/leaflet.js
 //= require leaflet.markercluster/dist/leaflet.markercluster.js
 //= require_tree .
