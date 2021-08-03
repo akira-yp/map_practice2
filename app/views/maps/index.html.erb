@@ -29,7 +29,7 @@
       </tr>
     <% end %>
   </tbody>
-  
+
 </table>
 
 <br>
@@ -37,3 +37,13 @@
 <%= link_to 'New Map', new_map_path %>
 
 <%= javascript_include_tag 'mapindex' %>
+
+<script>
+var popup = L.popup();
+
+function onMapClick(e) {
+    popup.setLatLng(e.latlng).setContent("You clicked the map at " + e.latlng.toString()).openOn(mymap);
+}
+
+mymap.on('click', onMapClick);
+</script>
