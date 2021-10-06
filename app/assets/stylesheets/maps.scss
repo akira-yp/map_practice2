@@ -3,5 +3,17 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 #mapid {
+}
+
+.leaflet-control .easy-button-button{
+  background:#000000;
+  color:#ffffff;
+}
+
+.mapsize{
   height:500px;
+}
+
+.fullsize{
+  height:100%;
 }
